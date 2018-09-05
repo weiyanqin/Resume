@@ -8,9 +8,12 @@
 a{
     color: inherit;
 }
+html body{
+    height: 100%;
+}
 .row_layout{
     background-color: #eee;
-    height: 100vh;
+    height: 100%;
     padding-top: 0.1px;
 }
 .row_layout .resume{
@@ -37,7 +40,7 @@ a{
 
 .inner_resume .personalInformation .information ul{
     position: relative;
-    top: 24px;
+    top: 5px;
 }
 .inner_resume .personalInformation .information ul li{
     margin-top: 1.5px;
@@ -97,7 +100,7 @@ a{
 .inner_resume .workExperience div{
     margin-bottom: 5px;
 }
-.inner_resume .workExperience div:nth-child(1){
+.inner_resume .workExperience .title{
     font-size: 11pt;
     font-weight: bold;
     line-height: 1.15;
@@ -108,6 +111,8 @@ a{
     position: relative;
     right: 8px;
 }
+
+/* pikachu */
 .inner_resume .workExperience .pikachu .basicInformation{
     font-size: 10pt;
     line-height: 1.5;
@@ -132,7 +137,109 @@ a{
     line-height: 1.5;
 }
 .workExperience .pikachu .picture img{
-    width: 20mm;
+    width: 29mm;
     height: 20mm;
-    margin-right: 31px;
+    /* margin-right: 31px; */
+}
+
+/* audioPlayer */
+.inner_resume .workExperience .audioPlayer .basicInformation{
+    font-size: 10pt;
+    line-height: 1.5;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+}
+.workExperience .audioPlayer .basicInformation span:last-child{
+    font-weight: normal;
+}
+.workExperience .audioPlayer .basicProcess{
+    display: flex;
+    justify-content: space-between;
+}
+.workExperience .audioPlayer .basicProcess .feature{
+    position: relative;
+    left: 5px;
+}
+.workExperience .audioPlayer .basicProcess .feature li{
+    list-style-position: inside;
+    font-size: 10pt;
+    line-height: 1.5;
+}
+.workExperience .audioPlayer .picture img{
+    width: 29mm;
+    height: 20mm;
+    /* margin-right: 31px; */
+}
+
+/*ChinaTower*/
+.inner_resume .workExperience .ChinaTower .basicInformation{
+    font-size: 10pt;
+    line-height: 1.5;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+}
+.workExperience .ChinaTower .basicInformation span:last-child{
+    font-weight: normal;
+}
+.workExperience .ChinaTower .basicProcess{
+    display: flex;
+    justify-content: space-between;
+}
+.workExperience .ChinaTower .basicProcess .feature{
+    position: relative;
+    left: 5px;
+}
+.workExperience .ChinaTower .basicProcess .feature li{
+    list-style-position: inside;
+    font-size: 10pt;
+    line-height: 1.5;
+}
+.workExperience .ChinaTower .picture img{
+    width: 29mm;
+    height: 20mm;
+    /* margin-right: 31px; */
+}
+
+
+
+.inner_resume .skills{
+    /* border: 1px solid red; */
+    margin-top: 20px;
+}
+.inner_resume .skills .title{
+    font-size: 11pt;
+    font-weight: bold;
+    line-height: 1.15;
+}
+.inner_resume .skills div{
+    margin-bottom: 5px;
+}
+.inner_resume .skills .line{
+    border: 0.3px solid #000;
+    width: 657px;
+    position: relative;
+    right: 8px;
+}
+
+/* .inner_resume .skills .basicInformation{
+    font-size: 10pt;
+    line-height: 1.5;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+} */
+.skills .front-end .basicProcess .feature{
+    position: relative;
+    left: 5px;
+}
+.skills .front-end .basicProcess .feature li{
+    list-style-position: inside;
+    font-size: 10pt;
+    line-height: 1.5;
+}
+
+.skills .front-end .basicProcess .feature li span{
+    font-weight: bold;
 }
