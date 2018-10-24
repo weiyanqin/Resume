@@ -112,6 +112,36 @@ html body{
     right: 8px;
 }
 
+/* NetEaseCloudMusic */
+.inner_resume .workExperience .NetEaseCloudMusic .basicInformation{
+    font-size: 10pt;
+    line-height: 1.5;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+}
+.workExperience .NetEaseCloudMusic .basicInformation span:last-child{
+    font-weight: normal;
+}
+.workExperience .NetEaseCloudMusic .basicProcess{
+    display: flex;
+    justify-content: space-between;
+}
+.workExperience .NetEaseCloudMusic .basicProcess .feature{
+    position: relative;
+    left: 5px;
+}
+.workExperience .NetEaseCloudMusic .basicProcess .feature li{
+    list-style-position: inside;
+    font-size: 10pt;
+    line-height: 1.5;
+}
+.workExperience .NetEaseCloudMusic .picture img{
+    width: 29mm;
+    height: 20mm;
+    /* margin-right: 31px; */
+}
+
 /* pikachu */
 .inner_resume .workExperience .pikachu .basicInformation{
     font-size: 10pt;
