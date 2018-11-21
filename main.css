@@ -32,12 +32,14 @@ html body{
     /* border: 1px solid red; */
     display: flex;
     justify-content: space-between;
-    font-size: 10pt;
+    font-size: 9pt;
     font-family: Tahoma; 
     line-height: 1.5;
     width: 100%;
 }
-
+.inner_resume .personalInformation .information{
+    margin-top: -10px;
+}
 .inner_resume .personalInformation .information ul{
     position: relative;
     top: 5px;
@@ -63,7 +65,7 @@ html body{
 
 .inner_resume .educationExperience{
     /* border: 1px solid red; */
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 .inner_resume .educationExperience div{
@@ -112,6 +114,66 @@ html body{
     right: 8px;
 }
 
+/* vue-onlineReseumeEditor */
+.inner_resume .workExperience .board .basicInformation{
+    font-size: 10pt;
+    line-height: 1.5;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+}
+.workExperience .board .basicInformation span:last-child{
+    font-weight: normal;
+}
+.workExperience .board .basicProcess{
+    display: flex;
+    justify-content: space-between;
+}
+.workExperience .board .basicProcess .feature{
+    position: relative;
+    left: 5px;
+}
+.workExperience .board .basicProcess .feature li{
+    list-style-position: inside;
+    font-size: 10pt;
+    line-height: 1.5;
+}
+.workExperience .board .picture img{
+    width: 29mm;
+    height: 18mm;
+    /* margin-right: 31px; */
+}
+
+/* vue-onlineReseumeEditor */
+.inner_resume .workExperience .vue-onlineReseumeEditor .basicInformation{
+    font-size: 10pt;
+    line-height: 1.5;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+}
+.workExperience .vue-onlineReseumeEditor .basicInformation span:last-child{
+    font-weight: normal;
+}
+.workExperience .vue-onlineReseumeEditor .basicProcess{
+    display: flex;
+    justify-content: space-between;
+}
+.workExperience .vue-onlineReseumeEditor .basicProcess .feature{
+    position: relative;
+    left: 5px;
+}
+.workExperience .vue-onlineReseumeEditor .basicProcess .feature li{
+    list-style-position: inside;
+    font-size: 10pt;
+    line-height: 1.5;
+}
+.workExperience .vue-onlineReseumeEditor .picture img{
+    width: 29mm;
+    height: 18mm;
+    /* margin-right: 31px; */
+}
+
 /* NetEaseCloudMusic */
 .inner_resume .workExperience .NetEaseCloudMusic .basicInformation{
     font-size: 10pt;
@@ -138,7 +200,7 @@ html body{
 }
 .workExperience .NetEaseCloudMusic .picture img{
     width: 29mm;
-    height: 20mm;
+    height: 18mm;
     /* margin-right: 31px; */
 }
 
@@ -168,7 +230,7 @@ html body{
 }
 .workExperience .pikachu .picture img{
     width: 29mm;
-    height: 20mm;
+    height: 18mm;
     /* margin-right: 31px; */
 }
 
@@ -198,7 +260,7 @@ html body{
 }
 .workExperience .audioPlayer .picture img{
     width: 29mm;
-    height: 20mm;
+    height: 18mm;
     /* margin-right: 31px; */
 }
 
@@ -228,7 +290,7 @@ html body{
 }
 .workExperience .ChinaTower .picture img{
     width: 29mm;
-    height: 20mm;
+    height: 18mm;
     /* margin-right: 31px; */
 }
 
