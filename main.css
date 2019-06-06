@@ -114,95 +114,6 @@ html body{
     right: 8px;
 }
 
-/* vue-onlineReseumeEditor */
-.inner_resume .workExperience .board .basicInformation{
-    font-size: 10pt;
-    line-height: 1.5;
-    font-weight: bold;
-    display: flex;
-    justify-content: space-between;
-}
-.workExperience .board .basicInformation span:last-child{
-    font-weight: normal;
-}
-.workExperience .board .basicProcess{
-    display: flex;
-    justify-content: space-between;
-}
-.workExperience .board .basicProcess .feature{
-    position: relative;
-    left: 5px;
-}
-.workExperience .board .basicProcess .feature li{
-    list-style-position: inside;
-    font-size: 10pt;
-    line-height: 1.5;
-}
-.workExperience .board .picture img{
-    width: 29mm;
-    height: 18mm;
-    /* margin-right: 31px; */
-}
-
-/* vue-onlineReseumeEditor */
-.inner_resume .workExperience .vue-onlineReseumeEditor .basicInformation{
-    font-size: 10pt;
-    line-height: 1.5;
-    font-weight: bold;
-    display: flex;
-    justify-content: space-between;
-}
-.workExperience .vue-onlineReseumeEditor .basicInformation span:last-child{
-    font-weight: normal;
-}
-.workExperience .vue-onlineReseumeEditor .basicProcess{
-    display: flex;
-    justify-content: space-between;
-}
-.workExperience .vue-onlineReseumeEditor .basicProcess .feature{
-    position: relative;
-    left: 5px;
-}
-.workExperience .vue-onlineReseumeEditor .basicProcess .feature li{
-    list-style-position: inside;
-    font-size: 10pt;
-    line-height: 1.5;
-}
-.workExperience .vue-onlineReseumeEditor .picture img{
-    width: 29mm;
-    height: 18mm;
-    /* margin-right: 31px; */
-}
-
-/* NetEaseCloudMusic */
-.inner_resume .workExperience .NetEaseCloudMusic .basicInformation{
-    font-size: 10pt;
-    line-height: 1.5;
-    font-weight: bold;
-    display: flex;
-    justify-content: space-between;
-}
-.workExperience .NetEaseCloudMusic .basicInformation span:last-child{
-    font-weight: normal;
-}
-.workExperience .NetEaseCloudMusic .basicProcess{
-    display: flex;
-    justify-content: space-between;
-}
-.workExperience .NetEaseCloudMusic .basicProcess .feature{
-    position: relative;
-    left: 5px;
-}
-.workExperience .NetEaseCloudMusic .basicProcess .feature li{
-    list-style-position: inside;
-    font-size: 10pt;
-    line-height: 1.5;
-}
-.workExperience .NetEaseCloudMusic .picture img{
-    width: 29mm;
-    height: 18mm;
-    /* margin-right: 31px; */
-}
 
 /* pikachu */
 .inner_resume .workExperience .pikachu .basicInformation{
@@ -211,9 +122,6 @@ html body{
     font-weight: bold;
     display: flex;
     justify-content: space-between;
-}
-.workExperience .pikachu .basicInformation span:last-child{
-    font-weight: normal;
 }
 .workExperience .pikachu .basicProcess{
     display: flex;
@@ -242,9 +150,7 @@ html body{
     display: flex;
     justify-content: space-between;
 }
-.workExperience .audioPlayer .basicInformation span:last-child{
-    font-weight: normal;
-}
+
 .workExperience .audioPlayer .basicProcess{
     display: flex;
     justify-content: space-between;
