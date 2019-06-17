@@ -123,6 +123,9 @@ html body{
     display: flex;
     justify-content: space-between;
 }
+.inner_resume .workExperience .pikachu .basicInformation span:nth-child(2){
+    padding-right: 6px;
+}
 .workExperience .pikachu .basicProcess{
     display: flex;
     justify-content: space-between;
@@ -142,13 +145,75 @@ html body{
     /* margin-right: 31px; */
 }
 
-/* audioPlayer */
+/* lendingclub */
+.inner_resume .workExperience .lendingclub .basicInformation{
+    font-size: 10pt;
+    line-height: 1.5;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+}
+
+.workExperience .lendingclub .basicProcess{
+    display: flex;
+    justify-content: space-between;
+}
+.workExperience .lendingclub .basicProcess .feature{
+    position: relative;
+    left: 5px;
+}
+.workExperience .lendingclub .basicProcess .feature li{
+    list-style-position: inside;
+    font-size: 10pt;
+    line-height: 1.5;
+}
+.workExperience .lendingclub .picture img{
+    width: 29mm;
+    height: 18mm;
+    /* margin-right: 31px; */
+}
+
+/* therabank */
+.inner_resume .workExperience .therabank .basicInformation{
+    font-size: 10pt;
+    line-height: 1.5;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+}
+.inner_resume .workExperience .therabank .basicInformation span:nth-child(2){
+    padding-right: 19px;
+}
+
+.workExperience .therabank .basicProcess{
+    display: flex;
+    justify-content: space-between;
+}
+.workExperience .therabank .basicProcess .feature{
+    position: relative;
+    left: 5px;
+}
+.workExperience .therabank .basicProcess .feature li{
+    list-style-position: inside;
+    font-size: 10pt;
+    line-height: 1.5;
+}
+.workExperience .therabank .picture img{
+    width: 29mm;
+    height: 18mm;
+    /* margin-right: 31px; */
+}
+
+/* audioplayer */
 .inner_resume .workExperience .audioPlayer .basicInformation{
     font-size: 10pt;
     line-height: 1.5;
     font-weight: bold;
     display: flex;
     justify-content: space-between;
+}
+.inner_resume .workExperience .audioPlayer .basicInformation span:nth-child(2){
+    
 }
 
 .workExperience .audioPlayer .basicProcess{
