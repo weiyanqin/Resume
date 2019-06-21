@@ -1,0 +1,318 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Tahoma;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+a{
+    color: inherit;
+}
+html body{
+    height: 100%;
+}
+.row_layout{
+    background-color: #eee;
+    height: 100%;
+    padding-top: 0.1px;
+}
+.row_layout .resume{
+    margin: 0 auto;
+    overflow: hidden;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 210mm;
+    background-color: #fff;
+    box-shadow: 2px 2px rgba(255,255,255,0.45);
+    
+}
+.row_layout .resume .logo img{
+    display: block;
+    /* border: 1px solid red; */
+    width: 120px;
+    height: 60px;
+    margin-left: 3mm;
+}
+.inner_resume{
+    margin: 0mm 5mm 10mm 5mm;
+}
+
+.row_layout .resume .inner_resume .personalInformation{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    font-size: 9pt;
+    font-family: Tahoma; 
+    line-height: 1.5;
+    width: 100%;
+    margin-bottom: 30px;
+}
+.inner_resume .personalInformation .information{
+    margin-top: 24px;
+}
+.inner_resume .personalInformation .information ul{
+    position: relative;
+    top: 5px;
+}
+.inner_resume .personalInformation .information ul li{
+    margin-top: 1.5px;
+    list-style-type: none;
+}
+ .personalInformation .information ul li:nth-child(1){
+    font-size: 22px;
+    font-weight: bold;
+}
+.personalInformation .information ul li:nth-child(2){
+    font-weight: bold;
+}
+.inner_resume .personalInformation .photo img{
+    display: block;
+    width: 26mm;
+    height: 37mm;
+}
+
+
+
+.inner_resume .educationExperience{
+    /* border: 1px solid red; */
+    margin-top: 10px;
+}
+
+.inner_resume .educationExperience div{
+    margin-bottom: 5px;
+}
+.inner_resume .educationExperience div:nth-child(1){
+    font-size: 11pt;
+    font-weight: bold;
+    line-height: 1.15;
+}
+.inner_resume .educationExperience div:nth-child(2){
+    border: 0.5px solid #000;
+    width: 657px;
+    position: relative;
+    right: 8px;
+}
+.inner_resume .educationExperience div:nth-child(3){
+    font-size: 10pt;
+    line-height: 1.5;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+}
+.inner_resume .educationExperience div span:last-child{
+    font-weight: normal;
+}
+
+
+
+.inner_resume .workExperience{
+    /* border: 1px solid red; */
+    margin-top: 20px;
+}
+.inner_resume .workExperience div{
+    margin-bottom: 5px;
+}
+.inner_resume .workExperience .title{
+    font-size: 11pt;
+    font-weight: bold;
+    line-height: 1.15;
+}
+.inner_resume .workExperience .line{
+    border: 0.3px solid #000;
+    width: 657px;
+    position: relative;
+    right: 8px;
+}
+
+
+/* pikachu */
+.inner_resume .workExperience .pikachu .basicInformation{
+    font-size: 10pt;
+    line-height: 1.5;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+}
+.inner_resume .workExperience .pikachu .basicInformation span:nth-child(2){
+    padding-right: 6px;
+}
+.workExperience .pikachu .basicProcess{
+    display: flex;
+    justify-content: space-between;
+}
+.workExperience .pikachu .basicProcess .feature{
+    position: relative;
+    left: 5px;
+}
+.workExperience .pikachu .basicProcess .feature li{
+    list-style-position: inside;
+    font-size: 10pt;
+    line-height: 1.5;
+}
+.workExperience .pikachu .picture img{
+    width: 29mm;
+    height: 18mm;
+    /* margin-right: 31px; */
+}
+
+/* lendingclub */
+.inner_resume .workExperience .lendingclub .basicInformation{
+    font-size: 10pt;
+    line-height: 1.5;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+}
+
+.workExperience .lendingclub .basicProcess{
+    display: flex;
+    justify-content: space-between;
+}
+.workExperience .lendingclub .basicProcess .feature{
+    position: relative;
+    left: 5px;
+}
+.workExperience .lendingclub .basicProcess .feature li{
+    list-style-position: inside;
+    font-size: 10pt;
+    line-height: 1.5;
+}
+.workExperience .lendingclub .picture img{
+    width: 29mm;
+    height: 18mm;
+    /* margin-right: 31px; */
+}
+
+/* therabank */
+.inner_resume .workExperience .therabank .basicInformation{
+    font-size: 10pt;
+    line-height: 1.5;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+}
+.inner_resume .workExperience .therabank .basicInformation span:nth-child(2){
+    padding-right: 19px;
+}
+
+.workExperience .therabank .basicProcess{
+    display: flex;
+    justify-content: space-between;
+}
+.workExperience .therabank .basicProcess .feature{
+    position: relative;
+    left: 5px;
+}
+.workExperience .therabank .basicProcess .feature li{
+    list-style-position: inside;
+    font-size: 10pt;
+    line-height: 1.5;
+}
+.workExperience .therabank .picture img{
+    width: 29mm;
+    height: 18mm;
+    /* margin-right: 31px; */
+}
+
+/* audioplayer */
+.inner_resume .workExperience .audioPlayer .basicInformation{
+    font-size: 10pt;
+    line-height: 1.5;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+}
+.inner_resume .workExperience .audioPlayer .basicInformation span:nth-child(2){
+    
+}
+
+.workExperience .audioPlayer .basicProcess{
+    display: flex;
+    justify-content: space-between;
+}
+.workExperience .audioPlayer .basicProcess .feature{
+    position: relative;
+    left: 5px;
+}
+.workExperience .audioPlayer .basicProcess .feature li{
+    list-style-position: inside;
+    font-size: 10pt;
+    line-height: 1.5;
+}
+.workExperience .audioPlayer .picture img{
+    width: 29mm;
+    height: 18mm;
+    /* margin-right: 31px; */
+}
+
+/*ChinaTower*/
+.inner_resume .workExperience .ChinaTower .basicInformation{
+    font-size: 10pt;
+    line-height: 1.5;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+}
+.workExperience .ChinaTower .basicInformation span:last-child{
+    font-weight: normal;
+}
+.workExperience .ChinaTower .basicProcess{
+    display: flex;
+    justify-content: space-between;
+}
+.workExperience .ChinaTower .basicProcess .feature{
+    position: relative;
+    left: 5px;
+}
+.workExperience .ChinaTower .basicProcess .feature li{
+    list-style-position: inside;
+    font-size: 10pt;
+    line-height: 1.5;
+}
+.workExperience .ChinaTower .picture img{
+    width: 29mm;
+    height: 18mm;
+    /* margin-right: 31px; */
+}
+
+
+
+.inner_resume .skills{
+    /* border: 1px solid red; */
+    margin-top: 20px;
+}
+.inner_resume .skills .title{
+    font-size: 11pt;
+    font-weight: bold;
+    line-height: 1.15;
+}
+.inner_resume .skills div{
+    margin-bottom: 5px;
+}
+.inner_resume .skills .line{
+    border: 0.3px solid #000;
+    width: 657px;
+    position: relative;
+    right: 8px;
+}
+
+/* .inner_resume .skills .basicInformation{
+    font-size: 10pt;
+    line-height: 1.5;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+} */
+.skills .front-end .basicProcess .feature{
+    position: relative;
+    left: 5px;
+}
+.skills .front-end .basicProcess .feature li{
+    list-style-position: inside;
+    font-size: 10pt;
+    line-height: 1.5;
+}
+
+.skills .front-end .basicProcess .feature li span{
+    font-weight: bold;
+}
