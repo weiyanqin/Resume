@@ -24,6 +24,7 @@ html body{
     width: 210mm;
     background-color: #fff;
     box-shadow: 2px 2px rgba(255,255,255,0.45);
+    border: 1px solid #d8d3d3;
     
 }
 .row_layout .resume .logo img{
